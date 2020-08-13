@@ -1,0 +1,21 @@
+{
+  "name": "crelm-popup",
+  "description": "A small, simple popup component with responsive design using the crelm library.",
+  "keywords": ["popup", "responsive", "minimal", "simple", "crelm", "component"],
+  "script": "popup-min.js",
+  "author": "Patrick Trester",
+  "repository": "github:uraikus/crelm-popup",
+  "license": "MIT",
+  "files": "popup-min.js",
+  "scripts": {
+    "build": "node ./build.js",
+    "start": "parcel test/index.html"
+  },
+  "dependencies": {
+    "crelm": "^6.0.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.10.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
