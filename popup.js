@@ -32,7 +32,7 @@ function popup(children, closeClickOnBlur, maxWidth) {
   if (closeClickOnBlur) blur.onclick = dialog.close;
   setTimeout(function() {
     dialog.style.opacity = "1";
-    blur.style.opacity = "0.4";
+    blur.style.opacity = "1";
   }, 5);
   dialog.resize = function() {
     var width = dialog.maxWidth;
@@ -58,6 +58,6 @@ function init() {
     parent: document.head,
     tag: "style",
     html:
-      ".c-blur,.c-popup{opacity:0;position:fixed;box-sizing:border-box;transition:all 0.6s}.c-popup{border-radius:5px;height:auto;top:20px;max-height:calc(100% - 40px);box-shadow:0 0 4px #000;background-color:#c0c0c0;padding:4px;overflow:auto}.c-blur{top:0;height:100%;left:0;width:100%;background-color:#000}"
+      ".c-blur,.c-popup{opacity:0;position:fixed;box-sizing:border-box;transition:all 0.6s}.c-popup{border-radius:5px;height:auto;top:20px;max-height:calc(100% - 40px);box-shadow:0 0 4px #000;background-color:#c0c0c0;padding:4px;overflow:auto}.c-blur{top:0;height:100%;left:0;width:100%;background-color:rgba(0, 0, 0, 0.5);backdrop-filter: blur(4px)}"
   });
 }
