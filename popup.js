@@ -54,6 +54,7 @@ function popup(children, closeClickOnBlur, maxWidth) {
 }
 
 function init() {
+  cssLoaded = true;
   crelm({
     parent: document.head,
     tag: "style",
