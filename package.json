@@ -1,6 +1,6 @@
 {
   "name": "crelm-popup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A small (<2kb), simple popup component with responsive design using the crelm library.",
   "keywords": ["popup", "responsive", "minimal", "simple", "crelm", "component"],
   "main": "popup-min.js",
